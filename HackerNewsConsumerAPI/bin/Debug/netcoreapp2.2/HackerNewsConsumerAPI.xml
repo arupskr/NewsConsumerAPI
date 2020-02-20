@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HackerNewsConsumerAPI</name>
+    </assembly>
+    <members>
+        <member name="T:HackerNewsConsumerAPI.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HackerNewsConsumerAPI.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:HackerNewsConsumerAPI.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HackerNewsConsumerAPI.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:HackerNewsConsumerAPI.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.AspNetCore.Mvc.ApiExplorer.IApiVersionDescriptionProvider)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+            <param name="provider"></param>
+        </member>
+        <member name="T:HackerNewsConsumerAPI.SwaggerDefaultValues">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:HackerNewsConsumerAPI.SwaggerDefaultValues.Apply(Swashbuckle.AspNetCore.Swagger.Operation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>  
+            Applies the filter to the specified operation using the given context.  
+            </summary>  
+            <param name="operation">The operation to apply the filter to.</param>  
+            <param name="context">The current operation filter context.</param>  
+        </member>
+        <member name="T:HackerNewsConsumerAPI.V1.Controllers.StoriesController">
+            <summary>
+            Controller to return HackerNews stories, V1.0
+            </summary>
+        </member>
+        <member name="M:HackerNewsConsumerAPI.V1.Controllers.StoriesController.#ctor(System.Net.Http.IHttpClientFactory)">
+            <summary>
+            
+            </summary>
+            <param name="clientFactory"></param>
+        </member>
+        <member name="M:HackerNewsConsumerAPI.V1.Controllers.StoriesController.Get">
+            <summary>
+            Returns 20 best stories.If the number of stories to be returned increases in future considering the batching the parallel calls
+            Can be configured later to change the number stored externally
+            Also the end points can be moved to a configuration setting with a base endpoint
+            caching for 5 mins, assuming that the stories do not change frequently
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HackerNewsConsumerAPI.V1.Models.Story">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HackerNewsConsumerAPI.V1.Models.Story.Id">
+            <summary>
+            Story Identifier
+            </summary>
+        </member>
+        <member name="P:HackerNewsConsumerAPI.V1.Models.Story.Title">
+            <summary>
+            Story Title
+            </summary>
+        </member>
+        <member name="P:HackerNewsConsumerAPI.V1.Models.Story.Uri">
+            <summary>
+            The URL of the story
+            </summary>
+        </member>
+        <member name="P:HackerNewsConsumerAPI.V1.Models.Story.PostedBy">
+            <summary>
+            The username of the item's author
+            </summary>
+        </member>
+        <member name="P:HackerNewsConsumerAPI.V1.Models.Story.Time">
+            <summary>
+            Creation date of the story, Unix datetime
+            </summary>
+        </member>
+        <member name="P:HackerNewsConsumerAPI.V1.Models.Story.Score">
+            <summary>
+            The story's score or the votes
+            </summary>
+        </member>
+        <member name="P:HackerNewsConsumerAPI.V1.Models.Story.CommentCount">
+            <summary>
+            Count of the number of comments
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,16 @@
+C:\Shadows\San\Sant\HackerNewsConsumerAPI\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Shadows\San\Sant\HackerNewsConsumerAPI\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Shadows\San\Sant\HackerNewsConsumerAPI\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Shadows\San\Sant\HackerNewsConsumerAPI\bin\Debug\netcoreapp2.2\HackerNewsConsumerAPI.xml
+C:\Shadows\San\Sant\HackerNewsConsumerAPI\bin\Debug\netcoreapp2.2\HackerNewsConsumerAPI.deps.json
+C:\Shadows\San\Sant\HackerNewsConsumerAPI\bin\Debug\netcoreapp2.2\HackerNewsConsumerAPI.runtimeconfig.json
+C:\Shadows\San\Sant\HackerNewsConsumerAPI\bin\Debug\netcoreapp2.2\HackerNewsConsumerAPI.runtimeconfig.dev.json
+C:\Shadows\San\Sant\HackerNewsConsumerAPI\bin\Debug\netcoreapp2.2\HackerNewsConsumerAPI.dll
+C:\Shadows\San\Sant\HackerNewsConsumerAPI\bin\Debug\netcoreapp2.2\HackerNewsConsumerAPI.pdb
+C:\Shadows\San\Sant\HackerNewsConsumerAPI\obj\Debug\netcoreapp2.2\HackerNewsConsumerAPI.RazorAssemblyInfo.cache
+C:\Shadows\San\Sant\HackerNewsConsumerAPI\obj\Debug\netcoreapp2.2\HackerNewsConsumerAPI.RazorAssemblyInfo.cs
+C:\Shadows\San\Sant\HackerNewsConsumerAPI\obj\Debug\netcoreapp2.2\HackerNewsConsumerAPI.AssemblyInfoInputs.cache
+C:\Shadows\San\Sant\HackerNewsConsumerAPI\obj\Debug\netcoreapp2.2\HackerNewsConsumerAPI.AssemblyInfo.cs
+C:\Shadows\San\Sant\HackerNewsConsumerAPI\obj\Debug\netcoreapp2.2\HackerNewsConsumerAPI.RazorTargetAssemblyInfo.cache
+C:\Shadows\San\Sant\HackerNewsConsumerAPI\obj\Debug\netcoreapp2.2\HackerNewsConsumerAPI.dll
+C:\Shadows\San\Sant\HackerNewsConsumerAPI\obj\Debug\netcoreapp2.2\HackerNewsConsumerAPI.pdb
