@@ -9,6 +9,7 @@ requirement
 The best stories will have to be stored by their individual id 
 4. If the number of stories to be returned increases to 50 or more, consider batching the parallel fetch. It helps in exception handling
 5. Top 20 as Take(20) as been used to extract the first 20 ids to fetch the stories
+6. There is an integration test for the stories controller which asserts the count of the stories return and validates the response code. The coverage at this stage is not good enough due to time constraint.
 
 - TODO:
 1. The JSON attributes still needs to be displayed as per the specification
